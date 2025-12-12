@@ -3,6 +3,19 @@ color: #434455;
 background-color: #fff;}
 ul, ol {list-style-type: none;}
 a {text-decoration: none;}
+.page-header {
+    padding: 24px 0;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-list,
+.contacts-list {
+    display: flex;
+    gap: 40px;
+}
 .logo {font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -19,6 +32,110 @@ a {text-decoration: none;}
                 letter-spacing: 0.02em;
                 color: #2e2f42;
         }
+        .main-title {background-color: #2e2f42;}
+        .first-title {
+            font-size: 56px;
+            line-height: 1.07143;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #fff;}
+            .main-button {border-radius: 4px;
+                padding-block: 16px;
+                padding-inline: 32px;
+                width: 169px;
+                height: 56px;
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+                background: #4d5ae5;
+            cursor: pointer;}
+                                .container {
+                                    width: 1158px;
+                                    margin: 0 auto;
+                                    padding: 0 15px;
+                                }
+                .box-team {background: #f4f4fd;
+                    padding: 60px 0;}
+                .title-team {
+                    font-size: 36px;
+                    line-height: 1.1;
+                    letter-spacing: 0.02em;
+                    text-align: center;
+                    color: #2e2f42;}
+                    .first-image-mark {border-radius: 0 0 4px 4px;
+                        padding-block: 0px 32px;
+                        padding-inline: 0px;
+                        width: 264px;
+                        height: 380px;
+                    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+                        background: #fff;}
+                        .mark-guerrero {font-weight: 500;
+                            font-size: 20px;
+                            line-height: 1.2;
+                            letter-spacing: 0.02em;
+                            text-align: center;
+                            color: #2e2f42;}
+                            .product-designer {font-weight: 400;
+                                font-size: 16px;
+                                line-height: 1.5;
+                                letter-spacing: 0.02em;
+                                text-align: center;
+                                color: #434455;}
+                        .second-image-tom {border-radius: 0 0 4px 4px;
+                            padding-block: 0px 32px;
+                            padding-inline: 0px;
+                            width: 264px;
+                            height: 380px;
+                        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+                            background: #fff;}
+                            .tom-ford {font-weight: 500;
+                                font-size: 20px;
+                                line-height: 1.2;
+                                letter-spacing: 0.02em;
+                                text-align: center;
+                                color: #2e2f42;}
+                                .frontend-developer {font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 1.5;
+                                    letter-spacing: 0.02em;
+                                    text-align: center;
+                                    color: #434455;}
+                            .third-image-camila {border-radius: 0 0 4px 4px;
+                                padding-block: 0px 32px;
+                                padding-inline: 0px;
+                                width: 264px;
+                                height: 380px;
+                            box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+                                background: #fff;}
+                                .camila-garcia {font-weight: 500;
+                                    font-size: 20px;
+                                    line-height: 1.2;
+                                    letter-spacing: 0.02em;
+                                    text-align: center;
+                                    color: #2e2f42;}
+                                    .marketing {font-weight: 400;
+                                        font-size: 16px;
+                                        line-height: 1.5;
+                                        letter-spacing: 0.02em;
+                                        text-align: center;
+                                        color: #434455;}
+                                .fourth-image-daniel {border-radius: 0 0 4px 4px;
+                                    padding-block: 0px 32px;
+                                    padding-inline: 0px;
+                                    width: 264px;
+                                    height: 380px;
+                                box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+                                    background: #fff;}
+                                    .daniel-wilson {font-weight: 500;
+                                        font-size: 20px;
+                                        line-height: 1.2;
+                                        letter-spacing: 0.02em;
+                                        text-align: center;
+                                        color: #2e2f42;}
+                                        .ui-designer {font-weight: 400;
+                                            font-size: 16px;
+                                            line-height: 1.5;
+                                            letter-spacing: 0.02em;
+                                            text-align: center;
+                                            color: #434455;}
                 .contacts {font-style: normal;}
                 .contacts-link {
                     font-size: 16px;
@@ -29,6 +146,13 @@ a {text-decoration: none;}
                     .nav-link:focus,        
                     .contacts-link:hover,
                     .contacts-link:focus {color: #404bbf;}
+                    .our-portfolio {padding: 60px 0;}
+                    .our-portfolio-title {font-weight: 700;
+                        font-size: 36px;
+                        line-height: 1.11111;
+                        letter-spacing: 0.02em;
+                        text-align: center;
+                        color: #2e2f42;}
                     .page-footer {background-color: #2e2f42;}
                     .footer-logo {margin-bottom: 16px;}
                     .footer-logo .logo-part {color:#f4f4fd;}
