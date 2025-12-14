@@ -6,14 +6,6 @@ a {text-decoration: none;}
 .page-header {
     padding: 24px 0;
 }
-.header-nav {
-    display: flex;
-}
-.nav-list,
-.contacts-list {
-    display: flex;
-    gap: 40px;
-}
 .contacts {
     font-style: normal;
 }
@@ -26,11 +18,6 @@ a {text-decoration: none;}
     color: #4d5ae5;}
     .header-logo {margin-right: 76px;}
     .header-logo .logo-part {color: #2e2f42;}
-                .header-container {
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                }
                 .header-list {
                     padding: 0;
                     margin: 0;
@@ -62,16 +49,11 @@ a {text-decoration: none;}
                 .main-button:focus {
                     background-color: #404bbf;
                 }
-                                .container {
-                                    width: 1158px;
-                                    margin: 0 auto;
-                                    padding: 0 15px;
-                                }
                               .features-list {font-size: 20px;
                                 line-height: 1.2;
                                 letter-spacing: 0.02em;
                                 color: #2e2f42;}
-                                                                .our-feaures-title {
+                                                                .our-features-title {
                                                                     font-weight: 500;
                                                                     font-size: 20px;
                                                                     line-height: 1.2;
@@ -86,6 +68,9 @@ a {text-decoration: none;}
                                                                 }
                 .box-team {background: #f4f4fd;
                     padding: 60px 0;}
+                                        .team-card {
+                                            background-color: #ffffff;
+                                        }
                 .title-team {
                     font-size: 36px;
                     line-height: 1.1;
